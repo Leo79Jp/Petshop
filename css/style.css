@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    flex-flow: wrap
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+html{
+    /* width: 1024px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    max-width: 1024px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* ------------------------ section top ------------------------- */
+.top{
+    display: flex;
+    justify-content: space-between;
+    background: #222222;
+    /* padding: 0px 100px; */
+    height: 20px;
+}
+.ofertas{
+    color: #f3f3f3;
+    padding-left: 100px;
+}
+.moneda{
+    margin-right: 50px;
+}
+.idioma, .moneda{
+    color: #f3f3f3;
+    background: #222222;
+    border-color: #222222;
+}
+/* ------------------------ section  header ------------------------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F0A83E;
+    height: 62px;
+    padding: 0px 40px;
+}
+.logo{
+    padding: 15px;
+}
+.ul_nav {
+    list-style: none;
+}
+.ul_nav li{
+    display: inline;
+    margin: 15px;
+}
+.ul_nav a{
+    text-decoration: none;
+    box-shadow: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.huella{
+    width: 20px;
+    margin-right: 3px;
+}
+/* ------------------------ section  slide ------------------------- */
+.main{
+    display: flex;
+    justify-content: center;
+}
+.section_slide{
+    position: relative;
+    display: flex;
+    justify-content:  end; /* centro los elementos de forma horizontal */
+    align-items: center; /* centro los elementos hijos de forma vertical */
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    gap: 20px;
+    width: 100%;
+    height: 409px;
+}
+
+.div_slide{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 365px;
+    height: auto;
+    margin-right: 12px;
+    text-align: center;
+}
+.p_slide1{
+    color: #3C2313;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    width: 365px;
+    height: 54px;
+    line-height: 54px;
+}
+.p_slide2{
+    height: 19px;
+    color: #3C2313;
+    font-size: 16px;
+}
+.a_slide{
+    width: 141px;
+    height: 49px;
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 49px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px gray;
+    cursor: pointer;
+}
+/* ------------------------ section Productos Destacados ------------------------- */
+
+.section_productosDestacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+    margin-top: 20px;
+    width: 950px;
+    background-color: #ffffff;
+    height: auto;
+}
+.img_pd{
+    width: 67px;
+    height: 71px;
+}
+.p_pd1{
+    display: flex;
+    height: auto;
+    font-weight: bold;
+    font-size: 40px;
+    color: #3C2313;
+    margin-top: 5px;
+    text-align: center;
+}
+.p_pd2{
+    width: 265px;
+    height: 18px;
+    color: #666666;
+    margin-top: 20px;
+}
+.div_pd{
+    display: flex;
+    justify-content:  center; /* centro los elementos de forma horizontal */
+    flex-direction: row; /* direcciono los elementos hijos en fila */
+    align-items: center; /* centro los elementos hijos de forma vertical */
+    flex-flow: wrap; /* Los elementos hijos se van acomodando a medida que la pantalla se achica */
+    
+    gap: 19.95px;
+    margin-top: 49px;
+    max-width: 836px;
+    height: auto; /*312*/
+}
+.article_pd{
+    display: flex;
+    align-items: center; /*centro los elementos hijos de forma vertical */
+    justify-content:  space-around; /* centro los elementos hijos de forma horizontal */
+    flex-direction: column;
+    width: 265px;
+    position: relative;
+    height: 312px; /*312*/
+}
+.p_articleDescripcion{
+    position: absolute;
+    top: 250px;
+    font-size: 15px;
+    color: #3C2313;
+    font-weight: bold;
+    width: 265px;
+    text-align: center;
+}
+.p_articlePrecio{
+    position: absolute;
+    top: 270px;
+    font-size: 15px;
+    color: #F0A83E;
+    font-weight: bold;
+    width: 265px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+/* ------------------------ section Formulario ------------------------- */
+
+.section_formulario{
+    max-width: 1024px;
+    height: auto;
+}
+.div_formulario{
+    width: 340px;
+    height: auto;
+}
+.p_formulario{
+    color: #3C2313;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inp_formulario::placeholder {
+    font-size: 9px;
+    color: #FFFFFF;
+  }
+.inp_formulario{
+    color:#ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    background-color: #3C2313;
+    width: 340px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.a_boton1{
+    width: 110px;
+    height: 34px;
+    color: #FFFFFF;
+    background-color: #8A8787;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    line-height: 34px;
+    text-align: center;
+    border: none;
+}
+.a_boton2{
+    width: 110px;
+    height: 34px;
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+    line-height: 34px;
+    text-align: center;
+    border: none;
+}
+.div_botones{
+    width: 340px;
+    height: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* ------------------------ section suscribcion ------------------------- */
+.sectionSuscribcion{
+    display: flex;
+    background-color: #F0A83E;
+    height: auto;
+    width: 1024px;
+    justify-content: space-between;
+}
+.div_S_Izquierdo, .div_S_Derecho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.div_S_Izquierdo{
+    margin-left: 20px;
+}
+.div_S_Derecho{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.p_suscribcion{
+    width: 320px;
+    line-height: 6cqw;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.inp_suscribcion::placeholder {
+    font-size: 9px;
+    color: #A0A0A0;
+  }
+.inp_suscribcion{
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 10px;
+    border: none;
+}
+.a_boton3{
+    width: 70px;
+    height: 34px;
+    width: 70px;
+    height: 34px;
+    color: #FFFFFF;
+    background-color: #3C2313;
+    border-radius: 15px;
+    font-size: 9px;
+    font-weight: bold;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* ------------------------ section footer ------------------------- */
+
+.section_footer{
+    background: #3C2313;
+    color: #f3f3f3;
+    height: 300px;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.article_footer{
+    width: 300px;
+    height: 66px;
+    display: flex;
+    margin-left: 70px;
+}
+.div_footer{
+    display: inline-block;
+    height: 66px;
+    margin-left: 25px;
+}
+.img_footer{
+    width: 66px;
+    height: 66px;
+}
+.h2_footer{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.p_info{
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.p_footer{
+    background-color: #222222;
+    max-width: 1024px;
+    height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.img_logo_footer{
+    width: 166px;
+    height: 23px;
+    margin-right: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+    .top{
+        display: none;
+    }
+    .ul_nav li{
+        display: none;
+    }
+    .p_slide2{
+        color: #FFFFFF;
+    }
+    .section_footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        }
+        .img_logo_footer{
+            margin-right: 1px;
+            margin-bottom: 20px;
+        }
+        
+  }
