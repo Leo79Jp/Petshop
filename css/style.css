@@ -280,7 +280,7 @@ header{
 
 .p_suscribcion{
     width: 320px;
-    line-height: 6cqw;
+    line-height: 60px;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 20px;
@@ -308,6 +308,8 @@ header{
     font-weight: bold;
     margin-left: 5px;
     cursor: pointer;
+    border: none;
+
 }
 /* ------------------------ section footer ------------------------- */
 
@@ -396,11 +398,19 @@ header{
         margin-left: 15px;
     }
     .div_S_Derecho{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 15px;
+        margin-right: 1px;
     }
     .div_S_Izquierdo, .div_S_Derecho{
         margin-bottom: 6px;
+    }
+    .p_suscribcion{
+        font-size: 19px;
+        margin-left: 5px;
+        width: 300px;
+    }
+    .div_slide{
+        margin-right: 10px;
     }
     
         
