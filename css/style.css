@@ -271,7 +271,7 @@ header{
     margin-bottom: 3px;
 }
 .div_S_Izquierdo{
-    margin-left: 20px;
+    margin-left: 25px;
 }
 .div_S_Derecho{
     margin-left: 25px;
@@ -299,8 +299,6 @@ header{
     border: none;
 }
 .a_boton3{
-    width: 70px;
-    height: 34px;
     width: 70px;
     height: 34px;
     color: #FFFFFF;
@@ -385,10 +383,25 @@ header{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        }
-        .img_logo_footer{
-            margin-right: 1px;
-            margin-bottom: 20px;
-        }
+    }
+    .img_logo_footer{
+        margin-right: 1px;
+        margin-bottom: 20px;
+    }
+    .p_slide1{
+        font-size: 28px;
+        width: 335px;
+    }
+    .div_S_Izquierdo{
+        margin-left: 15px;
+    }
+    .div_S_Derecho{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .div_S_Izquierdo, .div_S_Derecho{
+        margin-bottom: 6px;
+    }
+    
         
   }
