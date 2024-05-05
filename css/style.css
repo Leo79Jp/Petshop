@@ -60,6 +60,13 @@ header{
     color: #ffffff;
     font-size: 20px;
 }
+.menu{
+    text-decoration: none;
+    box-shadow: none;
+    color: #ffffff;
+    font-size: 20px;
+    display: none;
+}
 .huella{
     width: 20px;
     margin-right: 3px;
@@ -414,6 +421,7 @@ header{
     .div_slide{
         margin-right: 10px;
     }
-    
-        
+    .menu{
+        display: block;
+    }
   }
