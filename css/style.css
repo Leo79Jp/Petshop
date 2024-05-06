@@ -61,7 +61,7 @@ header{
     box-shadow: none;
     color: #ffffff;
     font-size: 20px;
-    display: none;
+    display: none; 
 }
 .huella{
     width: 20px;
@@ -385,9 +385,9 @@ header{
     .top{
         display: none;
     }
-    .ul_nav li{
+    /* .ul_nav li{
         display: none;
-    }
+    } */
     .p_slide2{
         color: #FFFFFF;
     }
@@ -428,4 +428,7 @@ header{
     .menu{
         display: block;
     }
-  }
+    .ul_nav{
+        display: none;
+    }
+    }
